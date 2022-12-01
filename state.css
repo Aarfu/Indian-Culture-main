@@ -1,0 +1,102 @@
+/*////////////////////top attraction\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.top-attractions{
+	width: 100%;
+	height: auto;
+	 background: url(images/monum/flag.jpg); 
+	background-position: center center;
+	background-attachment: fixed;
+}
+.top-attractions-back{
+	width: 100%;
+	background: rgba(0,0,0,0.65);
+}
+.top-attractions-content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0px 0 40px 0;
+}
+.attractions-topic{
+	width: 40%;
+	margin: 0 auto;
+	padding: 15px 0;
+	background: #06a809;
+	border-radius: 0 0 50px 50px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+}
+.attractions-topic h1{
+	font-family: Nunito;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0;
+}
+.sinharaja{
+	padding: 20px;
+	border-left: 3px dashed #fff;
+	border-bottom: 3px dashed #fff;
+}
+.sri-padaya{
+	padding: 20px;
+	border-right: 3px dashed #fff;
+}
+.sinharaja-content h3, .sri-padaya-content h3{
+	color: #fff;
+	font-family: Nunito;
+	letter-spacing: 1px;
+}
+.sinharaja-content, .sri-padaya-content{
+	width: 100%;
+	display: inline-flex;
+}
+.sinharaja-para, .sri-padaya-para{
+	width: 65%;
+}
+.sinharaja-para p, .sri-padaya-para p{
+	font-size: 25px;
+	font-family: Nunito;
+	color: rgb(172, 171, 171);
+}
+.sinharaja-para a, .sri-padaya-para a{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px solid #fff;
+	border-radius: 15px 0 15px 0; 
+	transition: 0.4s;
+}
+.sinharaja-para a:hover, .sri-padaya-para a:hover{
+	background: #fff;
+	color: #000;
+}
+.sri-padaya-para p a{
+	text-align: right;
+}
+.sinharaja-image{
+	width: 32%;
+	padding: 10px 0px 0px 25px;
+}
+.sri-padaya-image{
+	width: 30%;
+	padding: 20px 25px 0px 0px;
+}
+.sinharaja-image img, .sri-padaya-image img{
+	width: 100%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+	transition: 0.4s;
+}
+.sinharaja-image img:hover{
+	transform: rotate(-4deg);
+}
+.sri-padaya-image img:hover{
+	transform: rotate(4deg);
+}
+.vertical-divider1{
+	margin: 50px 830px 0px 0px;
+	border-top: 3px dashed #fff;
+}
+.vertical-divider2{
+	margin: 0px 0px 0px 830px;
+	border-top: 3px dashed #fff;
+}
